@@ -22,11 +22,11 @@ This repository includes the system frontend, which has been designed to be intu
 ## Funzionalità:
 <table>
   <tr>
-    <td> Aggiunta Frigo: <br> <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="200" height="400"/></td>
-
-    <td> Aggiunta Prodotto: <br> <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_prodotto.gif" width="200" height="400"/></td>
+    <td> <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="200" height="400"/></td>
     
-    <td> Aggiunta Coinquilino: <br> <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_coinquilino.gif" width="200" height="400" /></td>
+    <td> <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_prodotto.gif" width="200" height="400"/></td>
+    
+    <td> <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_coinquilino.gif" width="200" height="400" /></td>
   </tr>
 </table>
 
