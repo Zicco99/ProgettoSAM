@@ -20,8 +20,8 @@ This repository includes the system frontend, which has been designed to be intu
 * [com.squareup.picasso:picasso](https://square.github.io/picasso/) (Semplifica il processo di caricamento delle immagini)
 
 ## Funzionalità:
-* Aggiunta Frigo: 
-  <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="720" height="480" />
+* Aggiunta Frigo:
+* <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="480" height="720" />
 * Aggiunta Prodotto: ![Alt Text](https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_prodotto.gif)
 * Aggiunta Coinquilino: ![Alt Text](https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_coinquilino.gif)
 
