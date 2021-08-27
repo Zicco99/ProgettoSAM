@@ -11,7 +11,7 @@ Server-Side [Python]
 ### Funzionalità:
 Ho utilizzato Flask per creare un REST che svolge il ruolo di proxy tra l'app e l'api di https://it.openfoodfacts.org creando una cache locale di foto e info sui prodotti, la libreria in questione mi permette di collegare le URL a una logica che strutta i metodi GET e POST per lo scambio di dati. In particolare:
 
-## /barcode/<lang>/<bcode>
+## [/barcode/lang/bcode]
   * GET : restituisce un json con i dati relativi al prodotto, saranno dati di https://it.openfoodfacts.org se è la prima volta che viene richiesto
   il prodotto mentre dalla seconda volta in poi i dati saranno possibilmente modificati dagli utenti attraverso le post.
   * POST : l'utente una volta ricevuti i dati potrà modificarli, nel caso venga fatto viene eseguita una POST che andrà a modificare le info del
