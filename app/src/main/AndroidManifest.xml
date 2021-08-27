@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.chilledpanda.grocerypal">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Tema_Chiaro.GroceryPal"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GroceryPal.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.splashjoin.SplashJoin"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GroceryPal.NoActionBar">
+
+            <intent-filter android:label="Partecipa al gruppo">
+                <action android:name="android.intent.action.VIEW" />
+                <!-- DEFAULT mi permette di catturare intent impliciti -->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- BROWSABLE mi permette di accedere dal browser-->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accetta Uri che cominciano con "app://grocerypal” -->
+                <data
+                    android:scheme="http" android:host="grocery.app">
+                </data>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.home.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GroceryPal.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".activities.scan.ScanActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GroceryPal.NoActionBar">
+        </activity>
+
+        <receiver
+            android:name=".b_receiver.AlarmsReceiver"
+            android:exported="true" />
+
+        <receiver android:name=".b_receiver.SetAlarmsOnBoot"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+</manifest>

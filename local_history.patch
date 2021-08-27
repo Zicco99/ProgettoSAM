@@ -1,0 +1,61 @@
+Index: app/src/main/res/values/themes.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/themes.xml	(date 1630020126318)
++++ app/src/main/res/values/themes.xml	(date 1630020126318)
+@@ -2,14 +2,14 @@
+     <!-- Base application theme. -->
+     <style name="Tema_Chiaro.GroceryPal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+         <!-- Primary brand color. -->
+-        <item name="colorPrimary">@color/giallo_ocra</item>
+-        <item name="colorOnPrimary">@color/white</item>
++        <item name="colorPrimary">@color/grigio_scuro</item>
++        <item name="colorOnPrimary">@color/black</item>
+         <!-- Secondary brand color. -->
+         <item name="colorSecondary">@color/verde_acqua</item>
+         <item name="colorOnSecondary">@color/black</item>
+         <item name="CardBackground_Color">@color/verde_chiaro</item>
+         <!-- Status bar color. -->
+-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
++        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+ 
+ 
+         <!-- Customize your theme here. -->
+@@ -17,31 +17,26 @@
+         <item name="CardView_NameProd_Background">@color/white</item>
+         <item name="CardView_NameProd_Color">@color/black</item>
+         <item name="android:actionButtonStyle">@style/CustomActionButtonStyle</item>
+-
+     </style>
+ 
+     <style name="Theme.GroceryPal.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+         <item name="windowActionBar">false</item>
+         <item name="windowNoTitle">true</item>
+         <!-- Primary brand color. -->
+-        <item name="colorPrimary">@color/giallo_ocra</item>
++        <item name="colorPrimary">@color/verde_acqua</item>
+         <item name="colorOnPrimary">@color/white</item>
+         <!-- Secondary brand color. -->
+-        <item name="colorSecondary">@color/rosso</item>
++        <item name="colorSecondary">@color/grigio_scuro</item>
+         <item name="colorOnSecondary">@color/black</item>
++        <item name="CardBackground_Color">@color/verde_chiaro</item>
+         <!-- Status bar color. -->
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+ 
+ 
+-
+         <!-- Customize your theme here. -->
+         <item name="CardView_BackgroundTint">@color/jolly</item>
+         <item name="CardView_NameProd_Background">@color/white</item>
+         <item name="CardView_NameProd_Color">@color/black</item>
+         <item name="android:actionButtonStyle">@style/CustomActionButtonStyle</item>
+     </style>
+-
+-    <style name="Theme.GroceryPal.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+-
+-    <style name="Theme.GroceryPal.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+ </resources>
+\ No newline at end of file

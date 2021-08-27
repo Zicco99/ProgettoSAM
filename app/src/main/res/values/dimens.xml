@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- ProductRow Dim -->
+    <dimen name='pr_margin'>10dp</dimen>
+    <dimen name="pr_corner_radius">20dp</dimen>
+
+
+    <dimen name='pr_cardview_icon_dimen'>60dp</dimen>
+    <dimen name="pr_cardview_icon_margin">5dp</dimen>
+    <dimen name='pr_icon_padding'>5dp</dimen>
+
+
+    <dimen name="pr_cardview_text_margin">5dp</dimen>
+    <dimen name="pr_cardview_text_corner_radius">10dp</dimen>
+    <dimen name="pr_cardview_text_margin_inside">5dp</dimen>
+
+
+    <dimen name="pr_nprod_cardview_layout_padding">10dp</dimen>
+    <dimen name="pr_nprod_height">20dp</dimen>
+    <dimen name="pr_nprod_margin">5dp</dimen>
+    <dimen name="pr_nprod_textSize">12dp</dimen>
+
+
+    <dimen name="pr_counter_dimen">45dp</dimen>
+    <dimen name="pr_counter_margin">10dp</dimen>
+
+    <!-- ExpireRow Dim -->
+    <dimen name="er_cardview_radius">10dp</dimen>
+    <dimen name="er_cardview_margintop">10dp</dimen>
+    <dimen name="er_img_dimen">40dp</dimen>
+
+
+
+
+</resources>

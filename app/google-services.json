@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837273798196",
+    "project_id": "grocerypal-4881f",
+    "storage_bucket": "grocerypal-4881f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837273798196:android:abab73e4141967e51eac61",
+        "android_client_info": {
+          "package_name": "it.chilledpanda.grocerypal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837273798196-h9cidbql4slc4qp0tjv5egvepq49tj5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRTZoO9YHBborXUfZ2gEWa6kLibfNeOWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837273798196-h9cidbql4slc4qp0tjv5egvepq49tj5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

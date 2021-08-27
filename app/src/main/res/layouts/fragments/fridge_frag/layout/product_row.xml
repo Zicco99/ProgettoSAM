@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/pr_margin"
+    android:layout_marginHorizontal="@dimen/pr_margin"
+    android:backgroundTint="?CardView_BackgroundTint"
+    app:cardCornerRadius="@dimen/pr_corner_radius">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview_icon"
+                android:layout_width="@dimen/pr_cardview_icon_dimen"
+                android:layout_height="@dimen/pr_cardview_icon_dimen"
+                android:layout_margin="@dimen/pr_cardview_icon_margin"
+                app:cardCornerRadius="@dimen/pr_cardview_icon_dimen"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:backgroundTint="?CardView_NameProd_Background">
+
+                <ImageView
+                    android:id="@+id/prod_row_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/missing_photo"
+                    android:padding="@dimen/pr_icon_padding"
+                    android:contentDescription="Icon">
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/cardview_icon"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/cardview_icon"
+                app:layout_constraintRight_toLeftOf="@id/counter_bubble"
+                android:layout_margin="@dimen/pr_cardview_text_margin"
+                android:backgroundTint="?CardView_NameProd_Background"
+                app:cardCornerRadius="@dimen/pr_cardview_text_corner_radius">
+                    <TextView
+                        android:maxLines="1"
+                        android:layout_margin="@dimen/pr_cardview_text_margin_inside"
+                        android:id="@+id/prod_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/pr_nprod_height"
+                        android:gravity="center"
+                        android:textSize="@dimen/pr_nprod_textSize"
+                        android:textColor="?CardView_NameProd_Color"
+                        android:fontFamily="@font/roboto_medium">
+                    </TextView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/counter_bubble"
+                android:layout_width="@dimen/pr_counter_dimen"
+                android:layout_height="@dimen/pr_counter_dimen"
+                android:layout_margin="@dimen/pr_counter_margin"
+                app:cardCornerRadius="@dimen/pr_counter_dimen"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:cardBackgroundColor="@color/grigio_scuro">
+
+                <TextView
+                    android:id="@+id/counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/expire_rv"
+                app:layout_constraintTop_toBottomOf="@id/cardview_icon"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/er_cardview_margintop"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grigio_scuro">#343a40</color>
+    <color name="verde_acqua">#2a9d8f</color>
+    <color name="giallo_ocra">#e9c46a</color>
+    <color name="arancio">#f4a261</color>
+    <color name="verde_chiaro">#83c5be</color>
+    <color name="rosso">#ef476f</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="jolly">#577590</color>
+</resources>
