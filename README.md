@@ -15,7 +15,7 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/Capture.PNG" width="600" height="300" />
 
 # Struttura Database:
-<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/database.png" width="600" height="300" />
+<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/database.png" width="600" height="450" />
 
 
 # Client-Side [Android 8.0 (JAVA)] -> (API level 26+)
