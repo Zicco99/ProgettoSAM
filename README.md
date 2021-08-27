@@ -45,6 +45,8 @@ This repository includes the system frontend, which has been designed to be intu
   </tr>
 </table>
 
+* <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg"/> <br>
+
 
 
 ## [/barcode/lang/bcode]
