@@ -34,7 +34,7 @@ P.S: tra le informazioni ci sono 2 counter, relativi all'immagine e al nome del 
 
 
 
-### Server-Side [Python]
+# Server-Side [Python]
 
 ## Dipendenze Python:
 * [flask](https://flask.palletsprojects.com/)
