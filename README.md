@@ -12,15 +12,17 @@ Server-Side [Python]
 Ho utilizzato Flask per creare un REST che svolge il ruolo di proxy tra l'app e l'api di https://it.openfoodfacts.org creando una cache locale di foto e info sui prodotti, la libreria in questione mi permette di collegare le URL a una logica che strutta i metodi GET e POST per lo scambio di dati. In particolare:
 
 ## /barcode/<lang>/<bcode>
-  * -> GET : restituisce un json con i dati relativi al prodotto, saranno dati di https://it.openfoodfacts.org se è la prima volta che viene richiesto
+  * GET : restituisce un json con i dati relativi al prodotto, saranno dati di https://it.openfoodfacts.org se è la prima volta che viene richiesto
   il prodotto mentre dalla seconda volta in poi i dati saranno possibilmente modificati dagli utenti attraverso le post.
-  * -> POST: l'utente una volta ricevuti i dati potrà modificarli, nel caso venga fatto viene eseguita una POST che andrà a modificare le info del
+  * POST : l'utente una volta ricevuti i dati potrà modificarli, nel caso venga fatto viene eseguita una POST che andrà a modificare le info del
   prodotto
   
   P.S: tra le informazioni ci sono 2 counter , questi rendono permanenti le informazioni se X utenti sono concordi su queste ultime [cioè X utenti ricevono i dati e non li                modificano].
-  
-* [grafana-rrd-server](https://github.com/doublemarket/grafana-rrd-server) -> [MIRROR](https://www.mediafire.com/file/5zbpxx3aeuqgutc/grafana-rrd-server/file)
+ 
+## /images/<bcode>.jpeg
+ * GET : viene restituita l'immagine del prodotto,presente sul server.  
 
+ 
 * [Grafana](https://grafana.com/docs/grafana/latest/installation/debian/)
 
 * [JSON API Grafana Datasource](https://grafana.com/grafana/plugins/simpod-json-datasource/)
