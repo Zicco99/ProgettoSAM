@@ -48,7 +48,7 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 </table>
 <br><br>
 
-<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg" width="400" height="100"/> <br>
+<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg" width="200" height="70"/> <br>
 
 ### Ogni prodotto ha 2 azioni , disponibili solo si è il proprietario:
 * Attivare/Disattivare la notifica di scadenza : Alle 8:30 del giorno di scadenza verrà visualizzata una notifica.
