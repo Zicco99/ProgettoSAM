@@ -64,13 +64,11 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
   * N.B : Android quando viene riavviato perde le sveglie,all'interno del progetto c'è SetAlarmsOnBoot che resetterà le sveglie al fine reboot.
 
 ## Members Fragment [Azioni Possibili]
-* Invitare un amico (floating button in basso a destra)
+* Invitare un amico (floating button in basso a destra) -> sfrutta il meccanismo dei deeplink
 * Eliminare un membro attraverso un longclick sulla view dell'utente e cliccando sul - (Possibile solo se si è admin)
 
 ## Grocery Fragment [Azioni Possibili]
   * Da implementare in un futuro aggiornamento , dopo aver studiato il ml in python
-
-
 
 # Server-Side [Python]
 
