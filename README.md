@@ -41,7 +41,7 @@ P.S: tra le informazioni ci sono 2 counter, relativi all'immagine e al nome del 
 * [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy)
 
 ## Funzionalità:
-Ho utilizzato Flask per creare un REST che svolge il ruolo di proxy tra l'app e l'api di https://it.openfoodfacts.org creando una cache locale di foto e info sui prodotti, la libreria in questione mi permette di collegare le URL a una logica che strutta i metodi GET e POST per lo scambio di dati. In particolare:
+Ho utilizzato Flask per creare un REST che svolge il ruolo di proxy tra l'app e l'api di https://it.openfoodfacts.org creando una cache locale di foto e info sui prodotti, la libreria in questione mi permette di collegare le URL a una logica che strutta i metodi GET e POST per lo scambio di dati. In particolare gli endpoint sono:
 
 ## /barcode/lang/bcode
   * GET : restituisce un json con i dati relativi al prodotto, saranno dati di https://it.openfoodfacts.org se è la prima volta che viene richiesto
