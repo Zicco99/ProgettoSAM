@@ -22,7 +22,8 @@ This repository includes the system frontend, which has been designed to be intu
 ## Funzionalità:
 * <table>
   <tr>
-    <td> 
+    <td>
+      Aggiunta Frigo: <br>
       <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="200" height="400" />
     </td>
   
