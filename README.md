@@ -11,10 +11,7 @@ Un'ottima funzionalità rispetto altre app è che il server proxy intermediario 
 TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML con conseguente implementazione della GroceryList.
 
 # Architettura:
-<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/Capture.png" width="200" height="400" />
-
-
-
+<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/Capture.PNG" width="200" height="400" />
 
 
 # Client-Side [Android 8.0 (JAVA)] -> (API level 26+)
