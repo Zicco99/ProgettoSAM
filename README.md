@@ -48,9 +48,17 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 </table>
 <br><br>
 
-<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg" width="300" height="70"/> <br>
+##Activity Home [Azioni Possibili]:
+* Selezione del frigo attraverso lo spinner
+* Applicazione del filtro per proprietario/i
+* Aggiunta frigo
+* Eliminazione frigo (Solo se si è l'admin) oppure Abbandona Frigo (Se si è user)
 
-### Ogni prodotto ha 2 azioni , disponibili solo si è il proprietario:
+##Fridge Fragment [Azioni Possibili]
+* Aggiunta Prodotti (floating button in basso a destra)
+* Rimozione Prodotti / Modifica Sveglia
+*<img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg" width="300" height="70"/> <br>
+  ### Ogni prodotto ha 2 azioni , disponibili solo se si è il proprietario:
 * Attivare/Disattivare la notifica di scadenza : Alle 8:30 del giorno di scadenza verrà visualizzata una notifica.
 * Rimuovere il prodotto.
 
