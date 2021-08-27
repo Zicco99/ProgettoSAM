@@ -59,7 +59,7 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 * Aggiunta Prodotti (floating button in basso a destra)
 
 * <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg" width="300" height="70"/> <br>
-  ### Ogni prodotto ha 2 azioni , disponibili solo se si è il proprietario:
+  ### Ogni prodotto ha 2 azioni disponibili (solo se si è il proprietario):
   * Attivare/Disattivare la notifica di scadenza : Alle 8:30 del giorno di scadenza verrà visualizzata una notifica.
   * Rimuovere il prodotto.
   * N.B : Android quando viene riavviato perde le sveglie,all'interno del progetto c'è SetAlarmsOnBoot che resetterà le sveglie al fine reboot.
