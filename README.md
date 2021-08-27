@@ -20,7 +20,7 @@ This repository includes the system frontend, which has been designed to be intu
 * [com.squareup.picasso:picasso](https://square.github.io/picasso/) (Semplifica il processo di caricamento delle immagini)
 
 ## Funzionalità:
-* <table>
+<table>
   <tr>
     <td> 
       <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="200" height="400" />
