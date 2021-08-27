@@ -54,8 +54,7 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 * Attivare/Disattivare la notifica di scadenza : Alle 8:30 del giorno di scadenza verrà visualizzata una notifica.
 * Rimuovere il prodotto.
 
-Android quando viene riavviato perde le sveglie,all'interno del progetto c'è un 
-
+Android quando viene riavviato perde le sveglie,all'interno del progetto c'è SetAlarmsOnBoot che resetterà le sveglie al fine boot.
 
 # Server-Side [Python]
 
