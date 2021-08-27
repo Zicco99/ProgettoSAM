@@ -48,13 +48,13 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 </table>
 <br><br>
 
-##Activity Home [Azioni Possibili]:
+## Activity Home [Azioni Possibili]:
 * Selezione del frigo attraverso lo spinner
 * Applicazione del filtro per proprietario/i
 * Aggiunta frigo
 * Eliminazione frigo (Solo se si è l'admin) oppure Abbandona Frigo (Se si è user)
 
-##Fridge Fragment [Azioni Possibili]
+## Fridge Fragment [Azioni Possibili]
 * Aggiunta Prodotti (floating button in basso a destra)
 
 * <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/a796e97e-c07c-4f63-b9ca-c821f5a5084c.jpg" width="300" height="70"/>
