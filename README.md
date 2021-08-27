@@ -21,7 +21,7 @@ This repository includes the system frontend, which has been designed to be intu
 
 ## Funzionalità:
 * Aggiunta Frigo:
-* <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="200" height="480" />
+* <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_frigo.gif" width="200" height="400" />
 * Aggiunta Prodotto: ![Alt Text](https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_prodotto.gif)
 * Aggiunta Coinquilino: ![Alt Text](https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/aggiunta_coinquilino.gif)
 
