@@ -18,7 +18,7 @@ TODO: un passo avanti sarebbe la classificazione dei prodotti attraverso il ML c
 <img src="https://github.com/Zicco99/ProgettoSAM/blob/master/readme-content/database.png" width="600" height="450" />
 
 
-# Client-Side [Android 8.0 (JAVA)] -> (API level 26+)
+# Client-Side [Android 8.0 (JAVA in Ambiente Android)] -> (API level 26+)
 ## Dipendenze:
 * [com.google.firebase:firebase-auth](https://firebase.google.com/docs/auth/android/start) (Liberia che gestisce la comunicazione con firebase)
 * [com.journeyapps:zxing-android-embedded:4.1.0](https://github.com/journeyapps/zxing-android-embedded) (Libreria che gestisce lo scan dei barcode)
