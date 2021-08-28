@@ -2,10 +2,10 @@
 Progetto di Sviluppo Applicazioni Mobili
 
 # Presentazione:
-Lo scopo di questa applicazione è creare un sistema di gestione che agisca sull'inventario alimentare, permettendo di avere sul palmo di una mano un sumup di quello che si ha in frigo e prevenendo l'acquisto di prodotti che abbiamo già. Tutto ciò permette anche di diminuire lo spreco alimentare ,topic alquanto importante negli ultimi anni.
+Lo scopo di questa applicazione è creare un sistema per gestire l'inventario alimentare, permettendo di avere sul palmo di una mano un riassunto di quello che si ha in frigo e prevenendo così l'acquisto di prodotti che abbiamo già. Tutto ciò permette anche di diminuire lo spreco alimentare ,topic importante negli ultimi anni.
 
 
-L'app è stata progettata per ricavare da un server rest proxy informazioni sul prodotto ed utilizza firebase per mantenere un database sincronizzato tra più utenti, il caso tipico è una casa di studenti o coinquilini che devo condividere un frigo : attraverso quest'app si può sapere chi è il proprietario di ogni prodotto evitando bigliettini o altri significanti inutili con in più la possibilità di essere avvertiti per prodotti in scadenza.
+L'app è stata progettata ottiene da un server rest proxy informazioni sui prodotti ed utilizza firebase per mantenere un database sincronizzato tra più utenti, il caso tipico è una casa di studenti o coinquilini che devo condividere un frigo : attraverso quest'app si può sapere chi è il proprietario di ogni prodotto evitando bigliettini o altri significanti inutili con in più la possibilità di essere avvertiti per prodotti in scadenza.
 
 Un'ottima funzionalità rispetto altre app è che il server intermedio (proxy) , attraverso l'utilizzo continuato di vari utenti e attraverso il loro contributo (nome,foto), è in grado di apprendere velocemente informazioni riguardo prodotti che non ci sono per esempio su https://it.openfoodfacts.org, garantendo un database aggiornato dai clienti.
 
